@@ -1,10 +1,10 @@
-# PXIe-411x-Custom-Device
+## PXIe-411x Custom Device ##
 
-**PXI-4110 Custom Device** integrates the PXI-4110 Triple Output Programmable DC power supply into NI VeriStand.
+**PXIe-411x Custom Device** integrates the PXIe-4112 and PXIe-4113 Programmable DC power supply into NI VeriStand.
 
 ### LabVIEW Version ###
 
-LabVIEW 2009
+LabVIEW 2023 Q3
 
 ### Built Availability ###
 
@@ -12,13 +12,13 @@ No builds are provided.
 
 ### Quality, Limitations ###
 
-This code is low quality and not mature. Use at your own risk. It developed in 2009 and needs rework to bring up to modern standards.
+This code is medium quality and has been validated with real modules. Use at your own risk. It developed in 2023 and needs rework to bring up to modern standards.
 
-Not all features of the 4110 are exposed. Some aspects of the custom device are not easy to use or parameterized as expected. 
+Not all features of the 4112 and 4113 are exposed. Some aspects of the custom device are not easy to use or parameterized as expected. 
 
 ### Dependencies ###
 
-NI-DC Power
+NI-DCPower
 
 ### License ###
 
