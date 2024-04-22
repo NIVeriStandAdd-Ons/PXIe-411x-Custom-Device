@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>Power Supply::NI PXIe-411x</eng>
+		<loc>Power Supply::NI PXIe-411x</loc>
+	</AddMenu>
+	<Version>2.0</Version>
+	<Type>Asynchronous</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>c4962e37-b61c-419d-86ec-cab6a3f4360a</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\NI PXIe-411x\NI PXIe-411x PS Configuration.llb\NI PXIe-411x PS Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\NI PXIe-411x\NI PXIe-411x PS Engine.llb\NI PXIe-411x PS RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NI PXIe-411x\NI PXIe-411x PS Engine.llb\NI PXIe-411x PS RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\NI PXIe-411x\Linux_x64\Engine Linux64.llb\NI PXIe-411x PS RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NI PXIe-411x\Engine Linux64.llb\NI PXIe-411x PS RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>NI PXIe-411x</eng>
+				<loc>NI PXIe-411x</loc>
+			</Name>
+			<GUID>c4962e37-b61c-419d-86ec-cab6a3f4360a</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\pxi chassis small.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\NI PXIe-411x\NI PXIe-411x PS Configuration.llb\NI PXIe-411x PS Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>68d4576e-f70c-40ee-9c36-be2bda9af298</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\NI PXIe-411x\NI PXIe-411x PS Configuration.llb\EnableDisable Main Page.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>NI PXIe-411x</eng>
+				<loc>NI PXIe-411x</loc>
+			</Name>
+			<GUID>afdabf9d-2f00-4ac4-aee0-3d42bf8ba41d</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\daq device_disabled.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\NI PXIe-411x\NI PXIe-411x PS Configuration.llb\NI PXIe-411x PS Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>68d4576e-f70c-40ee-9c36-be2bda9af298</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\NI PXIe-411x\NI PXIe-411x PS Configuration.llb\EnableDisable Main Page.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>NI PXIe-411x Channel Settings</eng>
+				<loc>NI PXIe-411x Channel Settings</loc>
+			</Name>
+			<GUID>10877fa4-c2d4-4222-826b-ae30f45b243a</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ao.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\NI PXIe-411x\NI PXIe-411x PS Configuration.llb\NI PXIe-411x PS Ch Page.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy />
+	</CustomXML>
+</CustomDevice>
