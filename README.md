@@ -8,7 +8,7 @@ LabVIEW 2023 Q3
 
 ### Built Availability ###
 
-No builds are provided.
+Builds are provided in Releases Tab.
 
 ### Quality, Limitations ###
 
